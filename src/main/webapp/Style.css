@@ -1,0 +1,250 @@
+@charset "UTF-8";
+html{
+	scroll-behavior: smooth;
+}
+body{
+	margin:0;
+}
+header{
+	background-color:#ffc0cb;
+	padding:25px 0;
+}
+header a:link {
+  color : white;
+  text-decoration: none;
+}
+header a:hover {
+  color : black;
+}
+header a:visited {
+  color : white;
+}
+.header-left {
+	float:left;
+	color:#fff;
+	font-size:16px;
+}
+.header-right{
+	float:right;
+	color:#fff;
+	font-size:16px;
+}
+nav{
+	background-image:url("01.png");
+	padding:25px 0;
+	height:70px;
+}
+nav a:link {
+  color : red;
+  text-decoration: none;
+}
+nav a:hover{
+	color:black;
+}
+nav a:visited {
+  color : white;
+}
+nav ul{
+	list-style:none;
+}
+nav li{
+	display: inline;
+	padding: 10px;
+}
+.nav-left {
+	float:left;
+	color:#fff;
+	font-size:20px;
+}
+.nav-logo{
+	font-size:60px;
+	float:right;
+	color : #fff;
+	padding-right: 50px;
+}
+.navbar-nav {
+	margin: 24px 0 0 0;
+}
+.container {
+  	padding-right: 15px;
+	padding-left: 15px;
+  	margin-right: auto;
+  	margin-left: auto;
+}
+.mainbanner{
+	background: url(02.png) no-repeat center;
+	height:1000px;
+}
+.banner-l1{
+	text-align:center;
+}
+.banner-text{
+	font-size : 28px;
+	font: bold;
+	color : gray;
+}
+.banner-down{
+	padding-top:650px;
+}
+.view img{
+	width: 360px;
+	height: 240px;
+	margin: 10px;
+	float: left;
+	position: relative;
+	cursor: default;
+}
+
+.gallery{
+	margin-top:-100px;
+	height:700px;
+}
+.gallery-header{
+	color:#ffc0cb;
+	font-size: 44px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+.map{
+	margin-top:-130px;
+	height:700px;
+}
+.map iframe{
+	outline:none;
+	border:none;
+	width:100%;
+	height: 400px;
+}
+.map-header{
+	color:#ffc0cb;
+	font-size: 44px;
+	text-align:center;
+}
+.map-subheader{
+	font-size: 20px;
+	text-align:center;
+	margin-top:-40px;
+	margin-bottom:30px;
+}
+/*
+.invite{
+	margin-top:-130px;
+	height:900px;
+	background: url(peachflower.png) no-repeat center;
+	background-size:100%100%;
+}*/
+.invite{
+	margin-top:-100px;
+	background: url(invitem.jpg) no-repeat center;
+	height:600px;
+}
+.invite-header{
+	color:#ffc0cb;
+	font-size: 44px;
+	text-align:center;
+}
+.invite-story{
+	color:gray;
+	font-size: 26px;
+	text-align:center;
+	padding-top:225px;
+}
+.AccountNumber{
+	height:500px;
+}
+.AN-story1{
+	margin-top:-40px;
+	margin-bottom:30px;
+	padding-top:-50px;
+	color:gray;
+	font-size: 26px;
+	text-align:center;
+}
+.AN-story2{
+	margin-top:-40px;
+	margin-bottom:30px;
+	padding-top:-50px;
+	color:gray;
+	font-size: 50px;
+	text-align:center;
+}
+.AN-story3{
+	
+	font-size: 30px;
+	color:black;
+}
+.AN-story2 img{
+   position: relative;
+   top: 10px;
+}
+
+.message{
+	margin-top:px;
+	height:500px;
+}
+.message-header{
+	color:#ffc0cb;
+	font-size: 44px;
+	text-align:center;
+}
+.message-subheader{
+	font-size: 20px;
+	text-align:center;
+	margin-top:-40px;
+	margin-bottom:30px;
+}
+.message form{
+	margin-left:50px;
+	
+}
+.message input[type="text"],textarea{
+	
+	background: #fff;
+    border: 1px solid #c2c2c2;
+    color: #424341;
+    padding: 10px 16px;
+    font-size: 14px;
+    outline: none;
+}
+.message textarea{
+	min-height: 200px;
+	resize: none;
+	width: 90%;
+    margin: 15px 0;
+}
+.message input[type="submit"] {
+	text-transform:uppercase;
+	outline: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 8px 0;
+	width: 22%;
+	border:2px solid #ffc0cb;
+	background:#ffc0cb;
+	transition: .5s all;
+	
+}
+.message input[type="submit"]:hover{
+	border:2px solid #ffc0cb;
+	background:none;
+	color:#ffc0cb;
+}
+.list{
+	height:800px;
+}
+.message-list{
+	font-size: 20px;
+	text-align:center;
+	margin-top : 10px;
+	margin-bottom:30px;
+}
+footer{
+	background-color:#ffc0cb;
+	padding:25px 0;
+}
+.footer-left {
+	color:#fff;
+	font-size:16px;
+	margin-left:10px;
+}
+
